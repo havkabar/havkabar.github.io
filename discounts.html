@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+    <head>
+        <title>THEХАВКаБАР - акции</title>
+        <meta charset="utf-8">
+        <link href='css/main.css' rel='stylesheet'>
+        <link href='css/magnific-popup.css' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/jquery.js"></script>
+        <script src="js/magnific-popup.js"></script>
+    </head>
+    <body>
+        <div class="preloader" id="preloader">
+            <div class="loader"></div>
+        </div>
+        <div class="main-wrapper">
+            <div class="mobile-menu">
+                <input class="nav-burger__checkbox" type="checkbox" id="burger">
+                <label class="nav-burger" for="burger">меню</label>                
+                <nav class="mobile-nav">
+                    <a href="about.html" class="mobile-nav__links">о ресторане</a>
+                    <a href="menu.html" class="mobile-nav__links">меню</a>
+                    <a href="karaoke.html" class="mobile-nav__links">караоке</a>
+                    <a href="interier.html" class="mobile-nav__links">интерьер</a>
+                    <a href="discounts.html" class="mobile-nav__links">акции</a>
+                    <a href="#popup-contact" class="mobile-nav__links popup-play">контакты</a>
+                </nav>
+            </div>
+            <nav>
+                <div class="nav">
+                    <a href="about.html" class="nav__links">о ресторане</a>
+                    <a href='menu.html' class="nav__links">меню</a>
+                    <a href='karaoke.html' class="nav__links">караоке</a>
+                    <a href='interier.html' class="nav__links">интерьер</a>
+                    <a href='discounts.html' class="nav__links">акции</a>
+                    <a href='#popup-contact' class="nav__links popup-play">контакты</a>
+                </div>
+            </nav>
+            <h2 class="page-title">THE<span class="highlight">ХАВКаБАР</span> акции</h2>
+            <div class="discount-container">
+                <div class="discount-box">
+                    <img class="discount-box__img" src="imgs/banner_women.png" alt="banner">
+                    <div class="discount-box__description">
+                        1. Скидка предоставляется компании девушек от 6 человек при суме заказа от 1200грн на стол.<br>
+                        2. Скидка действует единоразово за посещение на больший счет.<br>
+                        3. Акция не работает с другими акциями<br>
+                        4. Акция не работает на алкоголь.
+                    </div>
+                </div>
+                <div class="discount-box">
+                    <img class="discount-box__img" src="imgs/banner_burg_dr.png" alt="banner">
+                    <div class="discount-box__description">
+                        Для получения подарка Вам необходимо:<br>
+                        1. Иметь с собой документ подтверждающий дату рождения.<br>
+                        2. Осуществить заказ от 700грн общего чека.<br>
+                        3. Выбрать бургер в подарок.<br>
+                        4. Акция не работает с другими акциями.
+                    </div>
+                </div>
+            </div>
+            <div class="discount-container">
+                <div class="discount-box">
+                    <img class="discount-box__img" src="imgs/banner_karaoke.png" alt="banner">
+                    <div class="discount-box__description">
+                        1. Скидка предоставяется при наличии документа подтверждающего дату рождения.
+                        2. Минимальная сума чека для скидки - 1200 грн на стол. 
+                        3. Акция не работает с другими акциями.
+                    </div>
+                </div>
+                <div class="discount-box">
+                    <img class="discount-box__img" src="imgs/banner_selfie.png" alt="banner">
+                    <div class="discount-box__description">
+                        Делай селфи в заведении, выкладывай фото в соц сеть с хештегом #thexaвкабар. покажи администратору и получи 
+                        Ко-Ко Бутер в подарок. Обязательное условие - аккаунт от 5000 подписчиков.
+                    </div>
+                </div> 
+            </div>
+            <div class="page-footer page-footer_margin-top">
+                <a href="https://www.instagram.com/" class="page-footer__socials-icon insta" target="_blank"></a>
+                <a href="https://www.facebook.com/" class="page-footer__socials-icon facebook" target="_blank"></a>
+                <a href="https://vk.com/" class="page-footer__socials-icon vk" target="_blank"></a>
+                <a href="https://www.youtube.com/" class="page-footer__socials-icon youtube" target="_blank"></a>
+            </div>
+        </div>
+        <div id="popup-contact" class="mfp-hide white-popup">
+            Телефон:<br>
+            095-142-52-32<br>
+            097-452-55-23<br>
+            <br>
+            Адрес<br>
+            г. Днепр, пр. Дмитрия Яворницкого 41<br>
+            <br>
+            График работы<br>
+            ПН-ЧТ: 10:00 - 22:00<br>
+            ПТ-ВС: 12:00 - 00:00
+        </div>
+        <script>
+        $('.popup-play').magnificPopup({
+            type:'inline',
+            midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+          });
+        </script>
+        <script src="js/preloader.js"></script>
+    </body>
+</html>
