@@ -251,22 +251,19 @@ body {
     -webkit-transition: .3s;
     -o-transition: .3s;
     transition: .3s;
-    outline: none; }
+    outline: none;
+    position: relative;
+    background: url("../imgs/links.png");
+    -webkit-background-clip: text;
+            background-clip: text; }
     @media (min-width: 900px) and (max-width: 1100px) {
       .nav__links {
         margin: 15px 3%; } }
   .nav__links:hover {
-    color: #fff !important;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s; }
-
-.nav:hover .nav__links {
-  text-shadow: 0 0 5px #fff;
-  color: transparent;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s; }
+    background: url("../imgs/links.png");
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent; }
 
 .main-page-center {
   position: absolute;
@@ -750,11 +747,11 @@ body {
     margin: 10px auto;
     -webkit-filter: blur(0);
             filter: blur(0);
-    -webkit-transition: -webkit-filter 1s ease-in-out;
-    transition: -webkit-filter 1s ease-in-out;
-    -o-transition: filter 1s ease-in-out;
-    transition: filter 1s ease-in-out;
-    transition: filter 1s ease-in-out, -webkit-filter 1s ease-in-out; }
+    -webkit-transition: -webkit-filter .2s ease-in;
+    transition: -webkit-filter .2s ease-in;
+    -o-transition: filter .2s ease-in;
+    transition: filter .2s ease-in;
+    transition: filter .2s ease-in, -webkit-filter .2s ease-in; }
   .discount-box__description {
     position: absolute;
     top: 0;
@@ -800,9 +797,9 @@ body {
 
 .discount-box:hover .discount-box__description {
   opacity: 1;
-  -webkit-transition-delay: .5s;
-       -o-transition-delay: .5s;
-          transition-delay: .5s; }
+  -webkit-transition-delay: .2s;
+       -o-transition-delay: .2s;
+          transition-delay: .2s; }
 
 .white-popup {
   position: relative;
